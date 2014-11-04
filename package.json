@@ -4,5 +4,31 @@
   "devDependencies": {
     "assert": "^1.1.2",
     "mocha": "^2.0.1"
-  }
+  },
+  "description": "Converts different units of Bytes.",
+  "main": "lib/byte-converter",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "assert": "^1.1.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvecchioli/byte-converter.git"
+  },
+  "keywords": [
+    "byte",
+    "conversion",
+    "nodejs"
+  ],
+  "author": "jvecchioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvecchioli/byte-converter/issues"
+  },
+  "homepage": "https://github.com/jvecchioli/byte-converter"
 }
