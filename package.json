@@ -1,6 +1,6 @@
 {
   "name": "byte-converter",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "devDependencies": {
     "assert": "^1.1.2",
     "mocha": "^2.0.1"
@@ -11,7 +11,6 @@
     "test": "test"
   },
   "dependencies": {
-    "assert": "^1.1.2"
   },
   "scripts": {
     "test": "mocha"
@@ -22,8 +21,7 @@
   },
   "keywords": [
     "byte",
-    "conversion",
-    "nodejs"
+    "conversion"
   ],
   "author": "jvecchioli",
   "license": "ISC",
