@@ -1,6 +1,6 @@
 {
   "name": "byte-converter",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "devDependencies": {
     "assert": "^1.1.2",
     "mocha": "^2.0.1"
@@ -10,8 +10,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "test": "mocha"
   },
