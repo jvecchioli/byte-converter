@@ -1,8 +1,8 @@
-var converter = require('./../lib/byte-converter');
+var converter = require('./../lib/byte-converter').converterBase10;
 
 var assert = require("assert");
 
-describe('Unit Converter', function() {
+describe('Unit Converter base 10', function() {
     it('Should return 25000 MB. Initial value: 25 GB', function (done) {
         var result = converter(25, 'GB', 'MB');
         assert.equal(result, 25000);
